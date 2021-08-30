@@ -1,0 +1,152 @@
+#flex-container {
+    width: 100%;
+    height: 50px;
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: space-between;
+}
+
+#justify {
+    display: flex;
+}
+
+#justify2 {
+    display: flex;
+}
+
+#epic-logo {
+    width: 30px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+#fort-logo {
+    width: 100px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+#cadastro {
+    padding: 10px;
+    margin: 5px 10px;
+}
+
+#cadastro a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+}
+
+#button input { 
+    width: 140px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: yellow;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+#topo {
+    background-image: url("../img/bk-image.jpg");
+    height: 600px;
+    background-size: cover;
+}
+
+#bk-fort {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    width: 200px;
+    transform: translateX(-50%);
+}
+
+#invasao {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    width: 380px;
+    transform: translateX(-50%);
+}
+
+#img-1 {
+    position: relative;
+    top: -60px;
+}
+
+.blocos {
+    width: 600px;
+    margin: auto;
+}
+
+.temas img {
+    width: 70%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.temas  h1 {
+    text-align: center;
+    color: #4DCCFA;
+    font-family: 'Carter One', cursive;
+    font-size: 50px;
+}
+
+.temas p {
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+#mapa {
+    animation-name: cores;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    height: 600px;
+}
+
+@keyframes cores {
+    0% {background: yellow;}
+    25% {background: red;}
+    50% {background: blue;}
+    75% {background: blueviolet;}
+    100% {background: yellow;}
+}
+
+#mapa iframe {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bot {
+    background-image: url('../img/seasonalpromo-3840x2334-9a54224f9ed6.png');
+    background-size: cover;
+    height: 700px;
+    margin-bottom: 0px;
+}
+
+footer {
+    width: 100%;
+    background-color: #2e2e2e;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    padding: 20px;
+}
+
+footer img {
+    width: 100px;
+    margin: 5px;
+}
+
+
+
